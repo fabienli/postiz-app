@@ -39,6 +39,7 @@ export type AllProvidersSettings =
   | ProviderExtension<'facebook', None>
   | ProviderExtension<'threads', None>
   | ProviderExtension<'mastodon', None>
+  | ProviderExtension<'pixelfed', None>
   | ProviderExtension<'bluesky', None>
   | ProviderExtension<'wrapcast', None>
   | ProviderExtension<'telegram', None>
